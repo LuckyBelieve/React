@@ -1,0 +1,104 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
+}
+.navbar{
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px ;
+  height: 50px;
+}
+.navbar>h1{
+  font-size: 30px;
+}
+.links{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.links>a{
+  width: 70px;
+  height: 40px;
+  display: flex;
+  color: rgb(247, 248, 250);
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: rgb(203, 32, 95);
+  font-size: 20px;
+  text-decoration: none;
+}
+.links>a:hover{
+  background-color: rgb(33, 14, 14);
+}
+/*                                      content   */
+
+.content{
+  width: 100%;
+  /* min-height: 92vh; */
+}
+/*                                    form  */
+
+.signupForm{
+  width: 400px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  padding:20px 50px 40px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-around;
+}
+form>h2{
+  text-align: center;
+  color:  rgb(203, 32, 95);
+}
+.labels{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.labels>label{
+  font-size: 20px;
+}
+.labels>input{
+  height: 40px;
+  padding-left: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+}
+form>button{
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  background-color:  rgb(203, 32, 95);
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 3px;
+  color:rgb(243, 245, 248);
+  height: 35px;
+  align-self: center;
+}
+form>p{
+  align-self: center;
+  font-size: 18px;
+}
+form>p>a{
+  text-decoration: none;
+  margin-left: 5px;
+}
