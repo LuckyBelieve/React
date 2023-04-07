@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   margin-top: 10px;
-  justify-content: space-between;
+ gap: 30px;
   align-items: center;
   padding: 20px ;
   height: 50px;
