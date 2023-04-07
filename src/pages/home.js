@@ -1,7 +1,6 @@
-import { useContext } from "react";
-import { AppContext } from "../App";
+import { useSelector } from "react-redux";
 const Homepage = () => {
-    const {username} = useContext(AppContext)
+const username = useSelector((state)=>state.user.value)
     return (
         <div className="homepage">
             <h1>this is the home page</h1>

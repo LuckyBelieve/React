@@ -1,8 +1,7 @@
 import ChangeProfile from "./changeProfile";
-import { useContext } from "react";
-import { AppContext } from "../App";
+import {useSelector } from "react-redux";
 const Profile = () => {
-    const {username} = useContext(AppContext)
+ const username = useSelector((state)=>state.user.value)
     return (
         <div className="profile">
             <h1>this is the profile page</h1>
